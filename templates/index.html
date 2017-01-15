@@ -1,15 +1,37 @@
-{% extends "base.html" %}
+<!doctype html>
+<html>
+<title> base page </title>
 
-{% block content %}
+<a href="one"> Home</a>
+<a href="#two"> How It Works</a>
+<a href="#three"> About</a>
+<a href="#four"> Get Involved</a>
 
-<h1> Welcome to your starter code! </h1>
-Do some experimenting and make some changes.
+<h2 id="one">Section One</h2>
+<p1>Welcome to my Website! </p1>
 
-<div>
-    <h2>The terms returned from the schedule API are:</h2>
-    {% for term in terms %}
-        {{ term['TermDescr'] }}<br>
-    {% endfor %}
-</div>
+<h2 id="two">Section Two</h2>
 
-{% endblock %}
+
+<h2 id="three">Section Two</h2>
+
+<h2 id="four">Section Two</h2>
+
+
+
+</html>
+
+<script type="text/javascript">
+ $('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+</script>
