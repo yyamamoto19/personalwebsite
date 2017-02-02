@@ -15,12 +15,14 @@
 		
     <table>
     <tr>
-        <td> <img src="https://lh6.googleusercontent.com/VILFdGKt53bpvazslRhW-z8IQ_tV5aRpO2U0-gM1xFzho02xKG1qMUAMweM_" alt="0.75" width=45% height=45%></td>
-        <td>KOMO</td>
+        <td> <figure><img src="https://lh6.googleusercontent.com/VILFdGKt53bpvazslRhW-z8IQ_tV5aRpO2U0-gM1xFzho02xKG1qMUAMweM_" alt="0.75" width=45% height=45%></figure></td>
+        <td>KOMOfdsa</td>
+        <td>Analyst by day, Artist by night</td>
 
     </table>
+
 		<img src="https://lh6.googleusercontent.com/y7a4FzEsqiHgvz-Vr4gMvlQrCG3NCK9SK0zNo1-E1D2TNPVYOkJvjcaryEtd" alt="0.63" width=30% height=30% style="float:right;clear:both;">
-	
+
 		<img src="https://lh5.googleusercontent.com/ks2AF2jVhJyfBJW4KQflmkFBk_4LEqsgcX5_VzJPjCMuusi__06DLaCEIvXj" alt="0.81" width=45% height=45% style="float:left;clear:both;">
 
 		<img src="https://lh6.googleusercontent.com/BjGlU_8sZYQm9TYHRZQadMEn-W2S2d9ChCfSkjDL3mqXAEH7AuHjdHhiN3wJ" alt="1.13" width=40% height=40% style="float:right;clear:both;">
@@ -44,15 +46,6 @@ html, body, div, span, table, footer, a, h2, canvas, div {
     background: transparent;
 }
 
-img{
- float:left;  
- clear:left;    
-}
-img:nth-of-type(2n){
-  float:right; 
-  clear:right;
-}
-
 td {
   font-family: Arial;
   font-size: 15pt;
@@ -63,6 +56,11 @@ img, span{
     vertical-align:middle;
     z-index: 1;
 }
+
+.test:hover{
+opacity:1.0;
+}
+
 table {
   height: 100%;
   width: 100%;
@@ -98,7 +96,6 @@ html, body{
     margin: 0;
     padding: 0;
     margin: auto;
-    z-index: 1;
 }
 
 
@@ -379,39 +376,4 @@ canvas.addEventListener('mousemove', function(e){
 
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-
-$(document).ready(function() {		
-	
-	//Execute the slideShow
-	slideShow();
-
-});
-
-
-</script>
 
