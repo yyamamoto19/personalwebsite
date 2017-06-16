@@ -43,7 +43,7 @@ a {
   color: #000000;
 }
 
-#canvas {
+canvas {
     position: fixed;
     color: #000000;
   z-index: -1;
