@@ -47,7 +47,7 @@ a {
 
 canvas {
     position: fixed;
-    color: #FFFFFF;
+    color: #000000;
   z-index: -1;
 }
 
