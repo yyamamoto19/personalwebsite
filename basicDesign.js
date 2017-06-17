@@ -1,57 +1,3 @@
-<!--Made by Yoshiki Yamamoto-->
-<!doctype html>
-<html>
-<head>
-  <link href="css/layout.css" rel="stylesheet" type="text/css" />
-  <script src="js/basicDesign.js" type="text/javascript"></script>
-
-<title> KOKOMOTO </title>
-
-</head>
-
-<body>
-
-<header>
-	<h1>KOKOMOTO</h1><br>
-	<h4>Analyst by day, Artist by night</h4>
-</header>
-<div>
-  <img src="https://lh6.googleusercontent.com/VILFdGKt53bpvazslRhW-z8IQ_tV5aRpO2U0-gM1xFzho02xKG1qMUAMweM_" width=45% height=45%>
-
-	<!--<img src="https://lh6.googleusercontent.com/y7a4FzEsqiHgvz-Vr4gMvlQrCG3NCK9SK0zNo1-E1D2TNPVYOkJvjcaryEtd" width=30% height=30%>-->
-
-	<img src="https://lh5.googleusercontent.com/ks2AF2jVhJyfBJW4KQflmkFBk_4LEqsgcX5_VzJPjCMuusi__06DLaCEIvXj" width=45% height=45%>
-
-	<img src="https://lh6.googleusercontent.com/BjGlU_8sZYQm9TYHRZQadMEn-W2S2d9ChCfSkjDL3mqXAEH7AuHjdHhiN3wJ" width=40% height=40%>
-
-  <img src="https://lh3.googleusercontent.com/P1bBp-hvHD2FFkhMupCwGK6ARRILr5aIAGVoAK2ZLiR37cHdnc0imA" width=45% height=45%>
-
-  <img src="https://lh5.googleusercontent.com/tfxQJ6m-YOLV7BKUcth-TJ6a6GMFvv4B3lktWS2exvyuEOYMvCGurg" width=45% height=45%>
-
-  <img src="https://lh6.googleusercontent.com/o7Y3yTg0yW821JOQmifH8Mp1DiDCFO7ZUYq0aDds5elFTW5Y6pRTjA" width=40% height=40%>
-
-  <img src="https://lh3.googleusercontent.com/eGkb22uW68iyN9J_h4x_g54it50hkt3tzT48FpBPc8qhM6cUWri8zQ" width=45% height=45%>
-
-  <img src="https://lh6.googleusercontent.com/oB9vR0rzdraUZWZuc_OksjE5Z-siaU5gzv3uhXZBYopzuKDWRMCeTg" width=30% height=30%>
-
-  <img src="https://lh5.googleusercontent.com/MGtbfBFjaYdy9e3k_yjB--icfEh4S0d2kx7WeXnfloBWsfOx2KTlFw" width=35% height=35%>
-
-  <img src="https://lh4.googleusercontent.com/FVczB8D5M6XQIHoW_mHQe81tUT0_16e7LmWieF4M0hoFnAgjd_kEhg" width=45% height=45%>
-
-  <img src="https://lh6.googleusercontent.com/g8kispH48rjH0F7SpsU_ssbHEuSiRSjrkUlYpvnGtTCS-BNx-a5Stg" width=50% height=50%>
-
-  <img src="https://lh3.googleusercontent.com/Jmct199Cs_B6ij4plCH6aruoEWextN-J1tZn6W1FxV5ceULOeBHu9w" width=45% height=45%>
-
-</div>
-
-
-</body>
-
-
-
-</html>
-
-
 <script language="javascript">
 var canvas = document.getElementById('nokey'),
    can_w = parseInt(canvas.getAttribute('width')),
@@ -325,7 +271,3 @@ canvas.addEventListener('mousemove', function(e){
     mouse_ball.y = e.pageY;
     // console.log(mouse_ball);
 });
-
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
