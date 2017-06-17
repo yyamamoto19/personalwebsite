@@ -46,7 +46,7 @@ a {
 
 canvas {
   position: fixed;
-  color: #000000;
+  color: #FFFFFF;
   z-index: -1;
 }
 
@@ -60,6 +60,11 @@ div.gallery {
 *{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+p {
+  font-family: Arial;
+  text-align: center;
 }
 html, body{
     height: 100%;
