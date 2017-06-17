@@ -28,7 +28,7 @@ h4 {
   font-family: Arial;
   font-size: 10pt;
   font-style: italic;
-  padding-top: 0px;
+  padding-top: -5px;
 }
 
 img {
@@ -46,7 +46,7 @@ a {
 
 canvas {
   position: fixed;
-  color: #000000;
+  color: #FFFFFF;
   z-index: -1;
 }
 
