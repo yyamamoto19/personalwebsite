@@ -10,8 +10,10 @@ html, body, div, span, table, footer, a, h2, canvas, div, header {
 
 header {
   padding-top: 20px;
-  text-align: right;
+  padding-bottom: 15px;
+  text-align: center;
   padding-right: 20px;
+  background: black;
 }
 
 
@@ -21,25 +23,32 @@ h1 {
   font-size: 25pt;
   font-weight: bold;
   margin-bottom: 0;
+  text-decoration: none;
 }
 
-footer {
-  text-align: right;
-  margin-top: 0;
-  margin-bottom: 10;
-  padding-right: 20px;
-  font-family: Arial;
-  font-size: 8pt;
-  font-weight: bold;
-  
-}
-
-h4 {
+h4 { 
   margin-top: 0;
   font-family: Arial;
   font-size: 10pt;
   font-style: italic;
   padding-top: -5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: right;
+  text-align: bottom;
+  margin-top: 0;
+  margin-bottom: 10;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  font-family: Arial;
+  font-size: 8pt;
+  font-weight: bold;
+  
 }
 
 img {
