@@ -13,7 +13,8 @@ header {
   padding-bottom: 15px;
   text-align: center;
   padding-right: 20px;
-  background: black;
+  background: white;
+  z-index: -1;
 }
 
 
