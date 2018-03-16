@@ -61,6 +61,10 @@ img {
   margin: 0 auto;
 }
 
+.rotate {
+  transform: rotate(90deg); 
+}
+
 a {
   color: #000000;
 }
